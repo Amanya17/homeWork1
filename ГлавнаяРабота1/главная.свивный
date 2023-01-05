@@ -1,0 +1,160 @@
+//№1
+let planet = "Земля"
+print(planet)
+
+let country = "Kyrgyzstan"
+print(country)
+
+let city = "Bishkek"
+print(city)
+
+let location = "Вечный Огонь"
+print(location)
+
+let businessCentr = "VICTORY"
+print(businessCentr)
+
+let numbersOfFloars = 13
+print(numbersOfFloars)
+
+let company = "CEEKTECH"
+var numberOffice = 1
+var adress = "Ибраимова 103"
+
+numberOffice = 2
+print(company)
+print(numberOffice)
+print(adress)
+
+let cen = 4.15
+let cen1 = 5.15
+print(cen + cen1)
+
+
+//№2
+var number = 1
+print(number)
+var number2 = 2
+print(number2)
+var number3 = 3
+print(number3)
+var number4 = 4
+print(number4)
+var number5 = 5
+print(number5)
+var number6 = 6
+print(number6)
+var number7 = 7
+print(number7)
+var number8 = 8
+print(number8)
+var number9 = 9
+print(number9)
+var number10 = 10
+print(number10)
+
+//№3
+func calculator() {
+    print(number * number)
+    print(number * number2)
+    print(number * number3)
+    print(number * number4)
+    print(number * number5)
+    print(number * number6)
+    print(number * number7)
+    print(number * number8)
+    print(number * number9)
+    print(number * number10)
+
+
+}
+calculator()
+
+func multiTable (multi: Int) {
+    print(multi * number)
+    print(multi * number2)
+    print(multi * number4)
+    print(multi * number5)
+    print(multi * number6)
+    print(multi * number7)
+    print(multi * number8)
+    print(multi * number9)
+    print(multi * number10)
+
+}
+multiTable(multi: 3)
+
+func table (tab: Int) {
+    print("3 * 5 = \(tab * 5)")
+    print(tab * 5)
+}
+table(tab:  3)
+
+//№3
+
+func numbers (num1: Int, num2: Int){
+    print(num1 + num2)
+    print(num2 - num1)
+}
+numbers(num1: 2, num2: 5)
+
+func number1 (num3: Int, num4: Int){
+    print(num3 * num4)
+    print(num3 / num4)
+}
+number1(num3: 10, num4: 2)
+
+func numDouble (nD1: Double, nD2: Double){
+    print(nD1 * nD2)
+    print(nD2 / nD1)
+}
+numDouble(nD1: 2.15, nD2: 9.1)
+
+
+
+//Доп
+
+
+let lastName: String = "Бейшенов"
+let name: String = "Аман"
+print(lastName)
+print(name)
+
+var age: Int = 23
+print(age)
+
+let myCity: String = "Бишкек"
+print(myCity)
+
+var phoneNumber = "0703267676"
+print(phoneNumber)
+
+
+
+print("Анкета")
+
+func anketa () {
+ 
+    print("Имя - " + name)
+    print("Фамилия - " + lastName)
+    print("Возраст - \(age)")
+    print("Город - " + myCity)
+    print("Телефон - " + phoneNumber)
+
+} 
+
+
+func printAnketa (name: String, lastName: String, city: String){
+    print("Мое имя -  \(name). Моя фамилия -  \(lastName), Я живу - в \(city)")
+}
+printAnketa(name: "Аман", lastName: "Бейшенов", city: "Бишкеке")
+anketa()
+
+
+print("Напишите свой возраст")
+var ageToPrint = readLine()!
+func myName (){
+    print("Мой восраст - \(age) лет")
+}
+myName()
+
